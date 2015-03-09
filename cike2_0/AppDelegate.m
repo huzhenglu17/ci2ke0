@@ -11,11 +11,7 @@
 #import "STKAudioPlayer.h"
 #import "SampleQueueId.h"
 #import <AVFoundation/AVFoundation.h>
-#import <ShareSDK/ShareSDK.h>
-#import "WXApi.h"
-#import <TencentOpenAPI/QQApiInterface.h>
-#import <TencentOpenAPI/TencentOAuth.h>
-#import "WeiboSDK.h"
+
 
 @interface AppDelegate ()
 {
@@ -61,9 +57,6 @@
     //注册bmob以使用
     [Bmob registerWithAppKey:@"a289dc1a3da312533851e1ab1b6363c6"];
 
-    //注册sharesdk以使用
-    [self registerShareSDK];
-
     //设置音频播放
     NSError* error;
 
@@ -86,6 +79,8 @@
 
     return YES;
 }
+
+/*
 -(void)registerShareSDK{
     [ShareSDK registerApp:@"28341e6e2880"];
 
@@ -122,6 +117,6 @@
                         wxDelegate:self];
 }
 
-
+*/
 
 @end

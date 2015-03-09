@@ -12,20 +12,24 @@
 	<dict>
 		<key>A9EC145748C7F70C9ECCBE9EF01E9E814554F8D7</key>
 		<string>https://github.com/a83988029/2232232232.git</string>
+		<key>CF068CECAEC08F2F361D71E9C9FB5367BFF705EF</key>
+		<string>https://github.com/JiangJieFS/ci2ke0.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cike2_0/cike2_0.xcworkspace</string>
+	<string>cike2_0.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A9EC145748C7F70C9ECCBE9EF01E9E814554F8D7</key>
 		<string>../..</string>
+		<key>CF068CECAEC08F2F361D71E9C9FB5367BFF705EF</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/a83988029/2232232232.git</string>
+	<string>https://github.com/JiangJieFS/ci2ke0.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A9EC145748C7F70C9ECCBE9EF01E9E814554F8D7</string>
+	<string>CF068CECAEC08F2F361D71E9C9FB5367BFF705EF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A9EC145748C7F70C9ECCBE9EF01E9E814554F8D7</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cike2.0</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF068CECAEC08F2F361D71E9C9FB5367BFF705EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ci2ke0</string>
 		</dict>
 	</array>
 </dict>
