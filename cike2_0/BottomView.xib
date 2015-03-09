@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C81f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQm-ff-pnj">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="87"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQM-pB-wub">
+                    <rect key="frame" x="80" y="0.0" width="80" height="87"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3N-sG-Kkw">
+                    <rect key="frame" x="160" y="0.0" width="80" height="87"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjn-Mf-N8K">
+                    <rect key="frame" x="240" y="0.0" width="80" height="87"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VQm-ff-pnj" firstAttribute="width" secondItem="xjn-Mf-N8K" secondAttribute="width" id="30y-BH-vLw"/>
+                <constraint firstItem="xjn-Mf-N8K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3pc-ST-Z1B"/>
+                <constraint firstAttribute="bottom" secondItem="xjn-Mf-N8K" secondAttribute="bottom" id="99E-lQ-DDM"/>
+                <constraint firstAttribute="bottom" secondItem="pQM-pB-wub" secondAttribute="bottom" id="9R2-W7-6PR"/>
+                <constraint firstItem="w3N-sG-Kkw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MUE-jq-Swf"/>
+                <constraint firstItem="xjn-Mf-N8K" firstAttribute="leading" secondItem="w3N-sG-Kkw" secondAttribute="trailing" id="TIl-qG-gEE"/>
+                <constraint firstAttribute="bottom" secondItem="w3N-sG-Kkw" secondAttribute="bottom" id="c8f-qF-VsE"/>
+                <constraint firstItem="pQM-pB-wub" firstAttribute="leading" secondItem="VQm-ff-pnj" secondAttribute="trailing" id="ceh-vy-cdh"/>
+                <constraint firstAttribute="trailing" secondItem="xjn-Mf-N8K" secondAttribute="trailing" id="kmR-fz-1iZ"/>
+                <constraint firstItem="VQm-ff-pnj" firstAttribute="width" secondItem="w3N-sG-Kkw" secondAttribute="width" id="kzu-2F-bY5"/>
+                <constraint firstItem="VQm-ff-pnj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lR9-uf-T3c"/>
+                <constraint firstItem="pQM-pB-wub" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ly9-Az-x1U"/>
+                <constraint firstAttribute="bottom" secondItem="VQm-ff-pnj" secondAttribute="bottom" id="m7b-EJ-sRy"/>
+                <constraint firstItem="VQm-ff-pnj" firstAttribute="width" secondItem="pQM-pB-wub" secondAttribute="width" id="p63-Ms-M8H"/>
+                <constraint firstItem="VQm-ff-pnj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="psK-SN-8rn"/>
+                <constraint firstItem="w3N-sG-Kkw" firstAttribute="leading" secondItem="pQM-pB-wub" secondAttribute="trailing" id="tnK-f5-01b"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="favoriteView" destination="VQm-ff-pnj" id="laN-I3-whr"/>
+                <outlet property="musicControlView" destination="pQM-pB-wub" id="cZd-w3-JoD"/>
+                <outlet property="savePictureView" destination="xjn-Mf-N8K" id="PJH-o9-OkS"/>
+                <outlet property="shareView" destination="w3N-sG-Kkw" id="Yyk-M5-hpP"/>
+            </connections>
+            <point key="canvasLocation" x="324" y="335.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BmobSDK (1.4.12)
+  - FMDB (2.4):
+    - FMDB/standard (= 2.4)
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - IQKeyboardManager (3.2.0.3)
+  - MBProgressHUD (0.9)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - StreamingKit (0.1.25)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - BmobSDK
+  - FMDB
+  - IQKeyboardManager
+  - MBProgressHUD (~> 0.8)
+  - SDWebImage (~> 3.6)
+  - StreamingKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  BmobSDK: e91ff5b4468e6b6528406816636352fc49ad6c11
+  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  IQKeyboardManager: e0b33a5d821ab36ec47ce8ca9dc520030d6aac52
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  StreamingKit: 5b36623e7246cccddb8db3aee79c43bb180a51be
+
+COCOAPODS: 0.35.0
